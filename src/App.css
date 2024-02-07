@@ -1,12 +1,21 @@
-body {
-  background-color: rgb(122, 122, 122);
-  
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin : 0;
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box 
+}
 
-
-
-
-.footer {
-  color: #7f8084;
+:root {
+  --light-shades: #aecfdc;
+  --main-brand: #372830;
+  --dark-accent: #69849d;
+  --dark-shades: #698469;
 }
