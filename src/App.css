@@ -35,6 +35,8 @@ p {
   }
   .nav-links {
     flex-direction: column;
-
+  }
+  .about-container {
+    flex-direction: column;
   }
 }

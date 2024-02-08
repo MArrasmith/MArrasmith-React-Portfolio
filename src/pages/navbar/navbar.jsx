@@ -39,8 +39,7 @@ function Navbar() {
             </div>
             {showLinks && (
                 <div class="nav-links">
-                    <a href="#home">Home</a>
-                    <a href="#aboutme">About Me</a>
+                    <a href="#about">About Me</a>
                     <a href="#technologies">Technologies</a>
                     <a href="#portfolio">Portfolio</a>
                     <a href="#resume">Resume</a>
