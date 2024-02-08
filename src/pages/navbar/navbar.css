@@ -1,0 +1,30 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--page-padding);
+    background-color: var(--main-brand);
+    color: var(--light-shades);
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.nav-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    color: var(--light-shades);
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: var(--light-accent);
+    transform: translateY(-5px);
+}
+
+.nav-name img{
+width: 1.5rem;
+height: 1.5rem;
+cursor: pointer;
+}

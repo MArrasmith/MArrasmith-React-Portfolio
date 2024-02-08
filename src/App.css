@@ -14,8 +14,14 @@ p {
 }
 
 :root {
-  --light-shades: #aecfdc;
+  --page-padding: 1.2rem 10rem;
+
+  /* Colors */
+  --light-shades: #d4caa7;
+  --light-accent: #c7b470;
   --main-brand: #372830;
   --dark-accent: #69849d;
   --dark-shades: #698469;
 }
+/* #69849d
+#aecfdc */

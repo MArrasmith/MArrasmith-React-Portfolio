@@ -1,20 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import { Navbar } from './pages/navbar/navbar';
+import { Navbar } from './pages';
 
 function App() {
   return (
     <div>
-    <div>Michael Arrasmith</div>
-    <div>
-        <a >Home</a>
-        <a >About Me</a>
-        <a >Technologies</a>
-        <a >Portfolio</a>
-        <a >Resume</a>
-        <a >Contact Information</a>
+      <Navbar />
     </div>
-</div>
   );
 }
 
