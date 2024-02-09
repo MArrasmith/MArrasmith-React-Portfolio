@@ -1,13 +1,14 @@
 import './About.css'
+import profileImage from './MArrasmith.jpg'
 
 function About() {
   return (
-    <div id="aboutMe" class="about-container">
-      <img src="src/pages/About/MArrasmith.jpg" alt="aboutMe"/>
+    <div id="about" class="about-container">
+      <img src={profileImage} alt="aboutMe"/>
       <div>
         <h1>About Me</h1>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est laborum quia dignissimos enim laudantium, consectetur animi eius. Ducimus ex inventore veniam error quam quisquam vitae ratione odio reiciendis iusto corrupti, eaque, dolor nihil recusandae modi neque itaque. Atque natus aperiam totam aspernatur laboriosam voluptatibus? Reiciendis ipsum rerum ex asperiores itaque.
+          Michael is a full stack web developer with a passion for building websites and applications with a clean and logical user interface.  He is a quick learner, a team player, and a strong communicator who enjoys working with a team to solve complex problems. Michael has a background rich with artistic influence. Growing up he was always heavily involved in local theater and dance, studying ballet well into adulthood. He also loves to draw and paint, some of his works being featured on an international scale. Michael is a student enrolled in the Full Stack Web Development Bootcamp at The Ohio State University in partnership with EdX, and is excited to bring his unique perspective to the world of web development.
         </p>
       </div>
     </div>
