@@ -1,10 +1,16 @@
 import './App.css';
-import { Navbar } from './pages';
+import { Navbar, About, Techs, Portfolio, Resume, Contact, Technologies } from './pages';
 
 function App() {
   return (
     <div>
       <Navbar />
+      <About />
+      <Technologies />
+      <Portfolio />
+      <Resume />
+      <Contact />
+
     </div>
   );
 }

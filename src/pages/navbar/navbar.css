@@ -11,6 +11,7 @@
 .nav-links {
     display: flex;
     gap: 1rem;
+    animation: menuAnimate 0.5s ease-in-out;
 }
 
 .nav-links a {
@@ -23,8 +24,25 @@
     transform: translateY(-5px);
 }
 
-.nav-name img{
+.nav-container img{
 width: 1.5rem;
 height: 1.5rem;
 cursor: pointer;
+}
+
+.nav-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+@keyframes menuAnimate {
+    0% {
+        transform: rotateX(90deg);
+    }
+    70% {
+        transform: rotateX(-10deg);
+    }
+    100% {
+        transform: rotatex(0deg);
+    }
 }
