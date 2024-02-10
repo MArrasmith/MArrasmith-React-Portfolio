@@ -1,5 +1,5 @@
 import './App.css';
-import { Navbar, About, Techs, Portfolio, Resume, Contact, Technologies } from './pages';
+import { Navbar, About, Portfolio, Resume, Contact, Technologies } from './pages';
 
 function App() {
   return (
