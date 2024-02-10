@@ -6,5 +6,4 @@ import Contact from "./Contact/Contact";
 import Technologies from "./Technologies/Technologies";
 
 
-
 export { Navbar, About, Portfolio, Resume, Contact, Technologies };
