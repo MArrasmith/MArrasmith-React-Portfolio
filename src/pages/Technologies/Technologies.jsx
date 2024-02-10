@@ -1,6 +1,6 @@
 import "./Technologies.css";
 import { techs } from "./techs";
-
+//returns the technologies page with a list of technologies I use
 function Technologies() {
   const technologiesList = techs.map((tech, idx) => {
     return (
