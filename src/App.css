@@ -39,4 +39,7 @@ p {
   .about-container {
     flex-direction: column;
   }
+  .contact-container{
+    flex-direction: column;
+  }
 }
