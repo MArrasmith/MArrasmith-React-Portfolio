@@ -17,7 +17,6 @@ function Portfolio() {
   return (
     <div id="portfolio" class="portfolio-container">
       <h1>Portfolio</h1>
-      <p>My github page where you can look over the code for these projects is <a href='https://www.github.com/MArrasmith' target="_blank">https://www.github.com/MArrasmith</a></p>
       <div>
         {projectList}
       </div>
