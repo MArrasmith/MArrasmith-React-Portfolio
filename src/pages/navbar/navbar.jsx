@@ -30,15 +30,15 @@ function Navbar() {
     },[]);
 //returns the navbar with the menu button and links
     return (
-        <div class="nav-container">
-            <div class="nav-name">
+        <div className="nav-container">
+            <div className="nav-name">
                 <div>Michael Arrasmith</div>
                 {showBtn && (
                     <img alt="menu" src={menuBtn} onClick={handleClick}/>
                 )}
             </div>
             {showLinks && (
-                <div class="nav-links">
+                <div className="nav-links">
                     <a href="#about">About Me</a>
                     <a href="#technologies">Technologies</a>
                     <a href="#portfolio">Portfolio</a>
