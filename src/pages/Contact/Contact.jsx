@@ -3,7 +3,7 @@ import './Contact.css';
 //returns the contact page with my contact information and links to my LinkedIn and GitHub
 function Contact() {
   return (
-    <div id="contact" class="contact-container">
+    <div id="contact" className="contact-container">
       <p>Michael Arrasmith</p>
       <p>(937)694-4007</p>
       <p>michael.keith.arrasmith@gmail.com</p>

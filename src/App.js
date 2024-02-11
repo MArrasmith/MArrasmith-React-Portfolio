@@ -11,9 +11,8 @@ function App() {
       <Portfolio />
       <Resume />
       <Contact />
-
     </div>
   );
-}
+};
 
 export default App;

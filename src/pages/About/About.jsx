@@ -3,7 +3,7 @@ import profileImage from './MArrasmith.jpg'
 
 function About() {
   return (
-    <div id="about" class="about-container">
+    <div id="about" className="about-container">
       <img src={profileImage} alt="aboutMe"/>
       <div>
         <h1>About Me</h1>
