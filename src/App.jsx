@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from './pages/Navbar';
+import Navbar from './pages/Navbars';
 import About from './pages/About';
 import Technologies from './pages/Technologies';
 import Portfolio from './pages/Portfolio';
@@ -18,7 +18,7 @@ function App() {
       <Resume />
       <Contact />
     </div>
-    
+
   );
 };
 
