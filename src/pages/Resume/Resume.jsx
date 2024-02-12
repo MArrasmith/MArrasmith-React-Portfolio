@@ -1,8 +1,8 @@
 import React from 'react';
 import './Resume.css';
 //imports the images for the resume page
-import resumeLink from './resumeImages/resumeLink.PNG';
-import resumeLink2 from './resumeImages/resumeLink.PNG'
+import resumeLink from './resumeImages/resumeLink.png';
+import resumeLink2 from './resumeImages/resumeLink.png'
 
 //returns the resume page with a link to my resume
 function Resume() {
