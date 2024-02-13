@@ -10,6 +10,12 @@ import Contact from './pages/Contact';
 function App() {
   return (
     //renders the navbar, about, technologies, portfolio, resume, and contact pages
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //TO DO-IF ELSE STATEMENT TO RENDER THE PAGES BASED ON THE NAVBAR CLICK AND ONLY RENDER THE PAGE THAT IS CLICKED
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    
     <div>
       <Navbar />
       <About />
