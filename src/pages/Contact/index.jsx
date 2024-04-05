@@ -6,7 +6,7 @@ function Contact() {
     <div id="contact" className="contact-container">
       <p>Michael Arrasmith</p>
       <p>(937)694-4007</p>
-      <p>michael.keith.arrasmith@gmail.com</p>
+      <p>m.k.arrasmith@outlook.com</p>
       <p>
         <a href="https://www.linkedin.com/in/michael-arrasmith-47b10b296/" target="_blank" rel="noreferrer">LinkedIn</a>
       </p>

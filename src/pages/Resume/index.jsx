@@ -5,9 +5,11 @@ import './Resume.css';
 function Resume() {
   return (
     <div id="resume" className="resume-container">
-      <h1>My resume</h1>
+      <h1>My Resumé</h1>
       <p>
-        <a href="https://docs.google.com/document/d/e/2PACX-1vRT4-GlfiW23MBrSwRMTku18NxSWsppNZuGvjeEM87Npl1bf3_t3oQ5sRNAkmbETw/pub" target="_blank" rel="noreferrer">Click her to view my resumé</a>
+        <a href="https://drive.google.com/file/d/1r0kTJfCtQYkYkun7_XbyqIGaxZgfca5R/view?usp=sharing" target="_blank" rel="noreferrer">
+          <img class="resume"src="src/pages/Resume/public/images/techresumescreenshot.PNG"></img>
+        </a>
       </p>
     </div>
   )
