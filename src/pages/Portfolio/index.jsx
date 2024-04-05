@@ -21,8 +21,21 @@ function Portfolio() {
         {projectList}
       </div>
     </div>
+    
+
+
   
   )
 }
+
+<div class="site">
+          <header><h3>Marvel Heroes Personality Quiz</h3></header>
+          <a href="https://marrasmith.github.io/Marvel-Heroes-Personality-Quiz/" target="_blank">
+            <img src="./assets/images/MarvelGroupProject1.PNG"/>
+          </a>
+          <p>This was my first group project as a student. We decided to utitilize the Marvel API and Giphy API, to create a personality quiz to pair you with the the Original Avenger that you are most like!</p>
+        </div>
+
+
 
 export default Portfolio
